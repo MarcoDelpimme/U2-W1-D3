@@ -39,6 +39,7 @@ h2 {
   background-color: #ffdf7f;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 #menu nav ul li img {
@@ -105,6 +106,7 @@ h2 {
   background-color: #ffdf7f;
   color: #742305;
   font-weight: bold;
+  cursor: pointer;
 }
 .first-card button:hover {
   background-color: #551700fa;
