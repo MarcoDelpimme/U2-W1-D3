@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #742305;
+}
+
+h1,
+h4 {
+  margin-left: 15px;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+p {
+  line-height: 20px;
+  /* margin-bottom: 30px; */
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+/* HEADER */
+#menu {
+  margin: 25px;
+  border-radius: 85px;
+  padding: 20px;
+  background-color: #fef7e2;
+}
+
+#menu nav ul li {
+  border: solid black;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  list-style-type: none;
+  border-radius: 25px;
+  background-color: #ffdf7f;
+  display: flex;
+  align-items: center;
+}
+
+#menu nav ul li img {
+  max-width: 40px;
+  height: auto;
+  margin-right: 5px;
+}
+
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#menu li:hover {
+  background-color: #551700fa;
+  color: white;
+  transition: 1s;
+}
+
+/* END HEADER */
+
+/* MAIN */
+.first-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  border-radius: 40px;
+  overflow: hidden;
+  background-color: #fbf7e3;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.halfclass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.textcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 26px;
+}
+
+.first-card button {
+  margin-bottom: 10px;
+  width: 170px;
+  border-radius: 15px;
+  padding: 5px;
+  border: none;
+  background-color: #ffdf7f;
+  color: #742305;
+  font-weight: bold;
+}
+.first-card button:hover {
+  background-color: #551700fa;
+  color: white;
+  transition: 1s;
+}
+#container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  gap: 35px;
+}
+
+#sndcontainer {
+  margin: 25px;
+  background: #fbf7e3;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+#sndcontainer img {
+  width: 100%;
+}
+#sndcontainer p {
+  margin-bottom: 30px;
+}
