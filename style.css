@@ -63,7 +63,6 @@ h2 {
   color: white;
   transition: 1s;
 }
-
 /* END HEADER */
 
 /* MAIN */
@@ -133,4 +132,15 @@ h2 {
 }
 #sndcontainer p {
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 700px) {
+  #sndcontainer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #sndcontainer img {
+    width: 40%;
+    margin-right: 20px;
+  }
 }
